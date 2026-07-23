@@ -1,4 +1,4 @@
 FROM python:3.9-slim
-COPY hello.py /hello.py
+COPY info.py /info.py
 EXPOSE 5000
-CMD ["python", "hello.py"]
+CMD ["python", "info.py"]
